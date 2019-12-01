@@ -29,6 +29,10 @@ def make_inverted_post(submission):
         send_replies=False,
     )
 
+    for comment in submission.comments:
+        if comment.parent_id.startswith('t3'):
+            new_post.reply(invert(comment.body))
+
 
 def update():
     with open('last-updated', 'r') as infile:
