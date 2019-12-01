@@ -21,6 +21,7 @@ FEMALE_WORDS = [
     "dudette",
     "dudettes",
     "sis",
+    "sisters",
     "mom",
     "mum",
     "moms",
