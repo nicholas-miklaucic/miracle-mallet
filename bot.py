@@ -43,6 +43,7 @@ def update():
     for sub in mrp.new(limit=1024):
         if last_updated < sub.created_utc:
             print(sub.title)
+            # print(invert(sub.selftext))
             make_inverted_post(sub)
 
     with open('last-updated', 'w') as outfile:
