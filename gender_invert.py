@@ -49,6 +49,8 @@ FEMALE_WORDS = [
     "grandmothers",
     "matriarch",
     "matriarchs",
+    "queen",
+    "queens",
 ]
 
 MALE_WORDS = [
@@ -99,6 +101,8 @@ MALE_WORDS = [
     "grandfathers",
     "patriarch",
     "patriarchs",
+    "king",
+    "kings",
 ]
 
 FTM = {f: m for f, m in zip(FEMALE_WORDS, MALE_WORDS)}
